@@ -38,7 +38,8 @@ task axisWSDLTojava() {
               		url: it)
     		}   	
 	}
-		if (!wsdlPackageMapping.isEmpty()) {	
+
+	 if (!wsdlPackageMapping.isEmpty()) {	
 	   wsdlPackageMapping.split(',').each {wsdlWithMappingFile ->
 		def values = wsdlWithMappingFile.split(':') 
 		"axis-wsdl2java"(

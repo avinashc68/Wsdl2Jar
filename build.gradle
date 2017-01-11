@@ -21,6 +21,10 @@ configurations {
     jar.archiveName = jar_name
 }
 
+task wrapper(type: Wrapper) {
+   gradleVersion = '2.6' //version required
+}
+
 task axisWSDLTojava() {
        println "-- Inside axisWSDLToJava"
        def flGen = new File( "$projectDir/src/main/java" )
