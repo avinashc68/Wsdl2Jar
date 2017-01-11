@@ -1,3 +1,0 @@
-wsdl=AirAsiaBook.wsdl,AirAsiaLookup.wsdl,AirAsiaFare.wsdl,AirAsiaSession.wsdl
-jar_name=air-asia.jar
-wsdlPackageMapping=lookup.wsdl:NStoPkg.properties
