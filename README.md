@@ -1,7 +1,6 @@
 # Wsdl2Jar
 ===================================================================================================
-The script/project can be used to generate a jar file if a WSDL file is given as input.
-It uses axis-wsdl2java to acheive the same.
+The script/project can be used to generate a jar file if a WSDL file is given as input. It uses axis-wsdl2java to acheive the same.
 ===================================================================================================
 
 Steps to use the script file.
