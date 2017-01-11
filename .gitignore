@@ -4,5 +4,4 @@ build/*
 *.class
 src/*
 *.wsdl
-*.properties
 *~
